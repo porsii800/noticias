@@ -14,34 +14,46 @@
     <title>W. Noticias</title>
 </head>
 
-<body class="escurecer">
-    <header class="header-mobile"></header>
-    <img src="./assets/images/logo.svg" alt="Logo do site de noticias w">
+<body>
 
-    <button>
-        <img src="./assets/images/icon-menu.svg" alt="icone meno hamburguer">
-    </button>
+    <header>
+        <img src="./assets/images/logo.svg" alt="Logo do site de noticias w">
 
-    <nav class="abrir">
         <button>
-            <img src="./assets/images/icon-menu-close.svg" alt="icone de X para fechar o menu ">
+            <img src="./assets/images/icon-menu.svg" alt="icone meno hamburguer">
         </button>
-        <a href="#">Home</a>
-        <a href="#">Novo</a>
-        <a href="#">Popular</a>
-        <a href="#">Trending</a>
-        <a href="#">Categorias</a>
-    </nav>
+
+
+
+        <nav class="mobile">
+            <button>
+                <img src="./assets/images/icon-menu-close.svg" alt="icone de X para fechar o menu ">
+            </button>
+            <a href="#">Home</a>
+            <a href="#">Novo</a>
+            <a href="#">Popular</a>
+            <a href="#">Trending</a>
+            <a href="#">Categorias</a>
+        </nav>
+        <nav class="desktop">
+            a href="#">Home</a>
+            <a href="#">Novo</a>
+            <a href="#">Popular</a>
+            <a href="#">Trending</a>
+            <a href="#">Categorias</a>
+
+        </nav>
 
     </header>
 
+
+
     <main>
         <section class="primeira-secao">
-
-
-            <img src="./assets/images/image-web-3-mobile.jpg" alt="icone da puzzle colorido">
-
-
+            <picture>
+                <source media="(min-width: 700px )" srcset="./image-web-3-desktop.jpg">
+                <img src="./assets/images/image-web-3-mobile.jpg" alt="icone da puzzle colorido">
+            </picture>
             <h1>O futuro brilhante da web 3.0?</h1>
             <div class="margin-border-paddin">
                 <p>Nós mergulhamos na próxima evolução da web que afirma devolver o poder das plataformas para as mãos
